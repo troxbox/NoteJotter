@@ -221,6 +221,35 @@ namespace Notejotter
         }
 
         // Save current file either by clicking the menu option or by warning message
+        /*void SaveFile()
+        {
+            SaveFile saveThisFile = new SaveFile();
+
+            string saveFile;
+            string saveText;
+            saveFD.Title = "Save text file";
+            saveFD.Filter = "TXT files|*.txt";
+            saveFD.FileName = "";
+            saveFD.DefaultExt = ".txt";
+
+            // If file hasn't been saved before
+            if (!fileExists)
+            {
+                if (saveFD.ShowDialog() != DialogResult.Cancel)
+                {
+                    saveFile = saveFD.FileName;
+                    saveText = richTextBox1.Text;
+
+                    saveThisFile.File = saveFile;
+                    saveThisFile.Text = saveText;
+                    saveThisFile.IsSaved = false;
+
+                    bool result = saveThisFile.IsSaved;
+
+                    MessageBox.Show("Result = " + result);
+                }
+            }
+        }*/
         void SaveFile()
         {
             //because a SaveFile without arguments is okay

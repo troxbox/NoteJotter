@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace Notejotter
 {
@@ -29,6 +30,7 @@ namespace Notejotter
         //======================================
         private bool saveFile()
         {
+            MessageBox.Show("saveFile() in SaveFile class triggered");
             System.IO.StreamWriter streamWriter = new System.IO.StreamWriter(file);
             streamWriter.WriteLine(text);
 
