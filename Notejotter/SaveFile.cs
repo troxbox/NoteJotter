@@ -7,6 +7,12 @@ using System.Windows.Forms;
 
 namespace Notejotter
 {
+
+    //=============================================
+    // THIS WHOLE CLASS IS NOT USED BECAUSE I THINK IT ISNT REALLY NEEDED TO DO THIS
+    //
+    // UNNECCISARY difficulty in doing things
+    //=============================================
     class SaveFile
     {
         //======================================
