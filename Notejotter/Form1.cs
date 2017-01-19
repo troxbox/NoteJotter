@@ -102,7 +102,8 @@ namespace Notejotter
         {
             if (fileSaved)
             {
-                // Clear text
+                // Clear text 
+                //changed
                 Quit();
             }
             else
